@@ -14,14 +14,14 @@ gpgkey=https://rpm.datastax.com/rpm/repo_key
 
 [midonet-openstack-integration]
 name=MidoNet OpenStack Integration
-baseurl=http://builds.midonet.org/openstack-${DIB_MIDONET_openstack_version}/${DIB_MIDONET_stage}/el7
+baseurl=http://builds.midonet.org/openstack-${DIB_MIDONET_openstack_version}/stable/el7
 enabled=1
 gpgcheck=1
 gpgkey=https://builds.midonet.org/midorepo.key
 
 [midonet-misc]
 name=MidoNet 3rd Party Tools and Libraries
-baseurl=http://builds.midonet.org/misc/${DIB_MIDONET_stage}/el7
+baseurl=http://builds.midonet.org/misc/stable/el7
 enabled=1
 gpgcheck=1
 gpgkey=https://builds.midonet.org/midorepo.key
