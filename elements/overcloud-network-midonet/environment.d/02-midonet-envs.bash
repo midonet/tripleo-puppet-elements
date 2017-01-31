@@ -10,7 +10,7 @@ export DIB_MIDONET_stage=${DIB_MIDONET_stage:-"stable"}
 export DIB_MIDONET_version=${DIB_MIDONET_version:-"5.2"}
 
 # OpenStack version of the midonet neutron plugin
-export DIB_MIDONET_openstack_version=${DIB_MIDONET_openstack_version:-"mitaka"}
+export DIB_MIDONET_openstack_version=${DIB_MIDONET_openstack_version:-"newton"}
 
 # Username of the yum repo (only applicable when DIB_MIDONET_release is MEM)
 export DIB_MIDONET_mem_username=${DIB_MIDONET_mem_username:-}
@@ -40,3 +40,4 @@ export DIB_INSTALLTYPE_puppet_midonet_openstack="source"
 # Elasticsearch & logstash
 export DIB_MIDONET_logstash_version="1.5"
 export DIB_MIDONET_elasticsearch_version="1.7"
+export DIB_INSTALLTYPE_puppet_tripleo=source
