@@ -13,4 +13,4 @@ puppet-logstash git /opt/stack/puppet-midonet/logstash https://github.com/elasti
 puppet-lib-file_concat git /opt/stack/puppet-midonet/file_concat https://github.com/electrical/puppet-lib-file_concat.git 813132b5d776204e1da169a93e4bc6a1e253f75c
 puppet-datacat git /opt/stack/puppet-midonet/datacat https://github.com/richardc/puppet-datacat.git 9d2cd07b8777a559a0d5e475b0b5651d412f5ba0
 puppet-midonet_openstack git /opt/stack/puppet-midonet/midonet_openstack https://github.com/midonet/puppet-midonet_openstack.git 1e2d8b882b1442b003f7ad9e4d26fac5449e538e
-puppet-tripleo git /opt/stack/puppet-midonet/tripleo https://github.com/alejandroandreu/puppet-tripleo.git 510122d4ff6f1b000a0686728237ccb0aa9a46b7
+puppet-tripleo git /opt/stack/puppet-midonet/tripleo https://github.com/alejandroandreu/puppet-tripleo.git 5c006cef9eaa4bd1bb9480208b47c812cd29a7bd
