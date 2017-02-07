@@ -1,0 +1,4 @@
+#!/bin/bash -eux
+
+sudo sed -i 's/conf.script = ""/conf.script = None/' /usr/lib/python2.7/site-packages/nova/virt/libvirt/designer.py
+exit 0
