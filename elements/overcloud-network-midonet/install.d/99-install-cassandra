@@ -1,0 +1,8 @@
+#!/bin/bash -eux
+
+yum install -y wget
+cd /tmp/
+wget https://rpm.datastax.com/community/noarch/cassandra22-2.2.8-1.noarch.rpm
+rpm -Uvh /tmp/cassandra22-2.2.8-1.noarch.rpm
+
+exit 0
