@@ -1,6 +1,8 @@
-[elasticsearch]
-name=elasticsearch repo
-baseurl=https://packages.elastic.co/elasticsearch/${DIB_MIDONET_elasticsearch_version}/centos
-enabled=1
+[elasticsearch-5.x]
+name=Elasticsearch repository for 5.x packages
+baseurl=https://artifacts.elastic.co/packages/5.x/yum
 gpgcheck=1
-gpgkey=https://packages.elastic.co/GPG-KEY-elasticsearch
+gpgkey=https://artifacts.elastic.co/GPG-KEY-elasticsearch
+enabled=1
+autorefresh=1
+type=rpm-md

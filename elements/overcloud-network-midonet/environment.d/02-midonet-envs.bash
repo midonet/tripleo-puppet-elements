@@ -36,8 +36,4 @@ export DIB_INSTALLTYPE_puppet_logstash="source"
 export DIB_INSTALLTYPE_puppet_lib_file_concat="source"
 export DIB_INSTALLTYPE_puppet_datacat="source"
 export DIB_INSTALLTYPE_puppet_midonet_openstack="source"
-
-# Elasticsearch & logstash
-export DIB_MIDONET_logstash_version="1.5"
-export DIB_MIDONET_elasticsearch_version="1.7"
 export DIB_INSTALLTYPE_puppet_tripleo=source
