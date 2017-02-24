@@ -4,8 +4,9 @@ set -e
 
 if [ -n $(grep "builds\.midonet\.org\/mem" /etc/yum.repos.d/*) ]; then
   echo "Installing MEM packages..."
+  yum install -y midonet-manager midonet-tools midonet-jmxscraper lldpd midonet-cluster-mem
   yum install -y logstash elasticsearch
-  yum install -y midonet-manager midonet-tools midonet-elk midonet-jmxscraper lldpd midonet-cluster-mem
+  yum isntall -y midonet-elk
 fi
 
 exit 0
