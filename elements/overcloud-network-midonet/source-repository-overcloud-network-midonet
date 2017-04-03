@@ -12,5 +12,5 @@ puppet-elasticsearch git /opt/stack/puppet-midonet/elasticsearch https://github.
 puppet-logstash git /opt/stack/puppet-midonet/logstash https://github.com/elastic/puppet-logstash.git 6b5ba1e428c7a08e4b191a1171df42b02a3e0aea
 puppet-lib-file_concat git /opt/stack/puppet-midonet/file_concat https://github.com/electrical/puppet-lib-file_concat.git 813132b5d776204e1da169a93e4bc6a1e253f75c
 puppet-datacat git /opt/stack/puppet-midonet/datacat https://github.com/richardc/puppet-datacat.git 9d2cd07b8777a559a0d5e475b0b5651d412f5ba0
-puppet-midonet_openstack git /opt/stack/puppet-midonet/midonet_openstack https://github.com/midonet/puppet-midonet_openstack.git 1e2d8b882b1442b003f7ad9e4d26fac5449e538e
-puppet-tripleo git /opt/stack/puppet-midonet/tripleo https://github.com/alejandroandreu/puppet-tripleo.git 47f55112cbc6f908b6e9f2cdd8f8a0489b91ecb2
+puppet-midonet_openstack git /opt/stack/puppet-midonet/midonet_openstack https://github.com/midonet/puppet-midonet_openstack.git 47f55112cbc6f908b6e9f2cdd8f8a0489b91ecb2
+puppet-tripleo git /opt/stack/puppet-midonet/tripleo https://github.com/alejandroandreu/puppet-tripleo.git 86f5eaa73f901b1b576cd6ccddca45650054f00a
