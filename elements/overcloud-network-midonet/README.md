@@ -24,11 +24,11 @@ Install `stable`, `testing` or `unstable` packages. Default is `stable`.
 
 ### DIB\_MIDONET\_version
 
-What version of Midonet to install. Default is `5.2`.
+What version of Midonet to install. Default is `5.4`.
 
 ### DIB\_MIDONET\_openstack\_version
 
-Specify the version of OpenStack you're using. Default is `mitaka`.
+Specify the version of OpenStack you're using. Default is `newton`.
 
 ### DIB\_MIDONET\_mem\_username
 

@@ -7,7 +7,7 @@ export DIB_MIDONET_release=${DIB_MIDONET_release:-"OSS"}
 export DIB_MIDONET_stage=${DIB_MIDONET_stage:-"stable"}
 
 # Midonet version that we want to install
-export DIB_MIDONET_version=${DIB_MIDONET_version:-"5.2"}
+export DIB_MIDONET_version=${DIB_MIDONET_version:-"5.4"}
 
 # OpenStack version of the midonet neutron plugin
 export DIB_MIDONET_openstack_version=${DIB_MIDONET_openstack_version:-"newton"}
