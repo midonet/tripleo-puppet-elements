@@ -2,15 +2,15 @@
 
 set -e
 
-if [ -n "$(grep "builds\.midonet\.org\/mem" /etc/yum.repos.d/*)" ]; then
+if [ -n "$(grep "repo\.midokura\.com\/mem" /etc/yum.repos.d/*)" ]; then
   echo "Installing MEM packages..."
   yum install -y midonet-manager midonet-tools midonet-jmxscraper lldpd midonet-cluster-mem
+fi
+
+if [ -n "$(grep "repo\.midokura\.com\/insights" /etc/yum.repos.d/*)" ]; then
+  echo "Installing MEM packages..."
   yum install -y logstash elasticsearch
   yum install -y midonet-elk
-  if [ ! -f /etc/logstash/conf.d/midonet.conf ]; then
-      echo "[-] midonet-elk hasn't been installed properly, exiting..."
-      exit 1
-  fi
 fi
 
 exit 0
