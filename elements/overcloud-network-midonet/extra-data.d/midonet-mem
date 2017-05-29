@@ -1,9 +1,16 @@
 [midonet]
 name=MidoNet
-baseurl=https://${DIB_MIDONET_mem_username}:${DIB_MIDONET_mem_password}@builds.midonet.org/mem-${DIB_MEM_version}/${DIB_MIDONET_stage}/el7
+baseurl=https://${DIB_MIDONET_mem_username}:${DIB_MIDONET_mem_password}@repo.midokura.com/mem-${DIB_MIDONET_version}/${DIB_MIDONET_stage}/el7
 enabled=1
 gpgcheck=1
-gpgkey=https://builds.midonet.org/midorepo.key
+gpgkey=https://repo.midokura.com/midorepo.key
+
+[midonet-insights]
+name=MidoNet
+baseurl=https://${DIB_MIDONET_mem_username}:${DIB_MIDONET_mem_password}@repo.midokura.com/insights-${DIB_MIDONET_version}/${DIB_MIDONET_stage}/el7
+enabled=1
+gpgcheck=1
+gpgkey=https://repo.midokura.com/midorepo.key
 
 [midonet-openstack-integration]
 name=MidoNet OpenStack Integration
