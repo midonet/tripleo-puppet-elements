@@ -8,7 +8,7 @@ puppetlabs-stdlib git /opt/stack/puppet-midonet/stdlib https://github.com/puppet
 puppetlabs-apache git /opt/stack/puppet-midonet/apache https://github.com/puppetlabs/puppetlabs-apache 410309f5facd0df7d836ea66c27ca9514031b6e3
 puppetlabs-concat git /opt/stack/puppet-midonet/concat https://github.com/puppetlabs/puppetlabs-concat.git a999bf26a118a3045fd5d4785f304232f5cea0ed
 puppet-curator git /opt/stack/puppet-midonet/curator https://github.com/tubemogul/puppet-curator.git d06718876f6d850f7b6c70c5f201c6576c86a74e
-puppet-elasticsearch git /opt/stack/puppet-midonet/elasticsearch https://github.com/elastic/puppet-elasticsearch.git f814203dbae97d8dbe330f86cb5fc66016a13d4e
+puppet-elasticsearch git /opt/stack/puppet-midonet/elasticsearch https://github.com/elastic/puppet-elasticsearch.git 3e47758e6e557e0ff6dcc8f1ac642da8e3dac534
 puppet-logstash git /opt/stack/puppet-midonet/logstash https://github.com/elastic/puppet-logstash.git 6b5ba1e428c7a08e4b191a1171df42b02a3e0aea
 puppet-lib-file_concat git /opt/stack/puppet-midonet/file_concat https://github.com/electrical/puppet-lib-file_concat.git 813132b5d776204e1da169a93e4bc6a1e253f75c
 puppet-datacat git /opt/stack/puppet-midonet/datacat https://github.com/richardc/puppet-datacat.git 9d2cd07b8777a559a0d5e475b0b5651d412f5ba0
